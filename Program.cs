@@ -22,7 +22,7 @@ namespace mine_sweeper
             string[,] mapReport = new string[MAP_HEIGHT, MAP_WIDTH];
             for (int yOrdinate = 0; yOrdinate < MAP_HEIGHT; yOrdinate++)
             {
-                for (int xOrdinate = 0; xOrdinate < map.GetLength(0); xOrdinate++)
+                for (int xOrdinate = 0; xOrdinate < MAP_WIDTH ; xOrdinate++)
                 {
                     string curentCell = map[yOrdinate, xOrdinate];
                     if (curentCell.Equals("*"))
